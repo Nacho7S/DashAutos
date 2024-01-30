@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 // app.use(express.static('public'))
 
-app.use(router)
+app.use('/v2',router)
 
 // app.get('/', (req, res) => {
 //   res.send("hello world")
