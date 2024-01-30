@@ -6,6 +6,9 @@ const vehicle = require('./vehicles');
 const router = require('express').Router()
 
 // router.use(user)
+router.get('/', (req, res) => {
+  res.status(200).json({message: "hello this is dash auto server"})
+})
 
 router.use('/user', user)
 
