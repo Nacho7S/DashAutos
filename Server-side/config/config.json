@@ -4,7 +4,8 @@
     "password": "postgres",
     "database": "DasAutos",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectModule": "pg"
   },
   "test": {
     "username": "root",
@@ -14,6 +15,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL"
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgresql",
+    "dialectModule": "pg"
   }
 }
