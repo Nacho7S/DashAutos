@@ -15,8 +15,6 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgresql",
-    "dialectModule": "pg"
+    "use_env_variable": "DATABASE_URL"
   }
 }
